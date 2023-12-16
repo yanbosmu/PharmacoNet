@@ -55,7 +55,7 @@ python scoring_file.py -p ./examples/6OIM_model.pkl -s ./examples/example.smi --
 - [Biopython](https://biopython.org) >= 1.81
 - [OmegaConf](https://omegaconf.readthedocs.io/en/2.3_branch/) >= 2.3.0
 - [Timm](https://timm.fast.ai) >= 0.9
-- [MolVoxel](https://github.com/SeonghwanSeo/molvoxel) (Comming soon in November)
+- [MolVoxel](https://github.com/SeonghwanSeo/molvoxel)
 
 #### Scoring
 
