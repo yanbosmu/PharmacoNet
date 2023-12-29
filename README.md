@@ -1,10 +1,8 @@
 # PharmacoNet: Accelerating Large-Scale Virtual Screening by Deep Pharmacophore Modeling
 
-#### **Preprint** [[arxiv](https://arxiv.org/abs/2310.00681)]
+Accepted in ***NeurIPS Workshop 2023 (AI4D3 | New Frontiers of AI for Drug Discovery and Development)*** [[arxiv](https://arxiv.org/abs/2310.00681)]
 
 Official Github for ***PharmacoNet: Accelerating Large-Scale Virtual Screening by Deep Pharmacophore Modeling*** by Seonghwan Seo* and Woo Youn Kim.
-
-PharmacoNet is a two-step scoring framework for pre-screening in large-scale virtual screening:
 
 1. Fully automated protein-based pharmacophore modeling based on image instance segmentation modeling
 2. Coarse-grained graph matching at the pharmacophore level
@@ -55,7 +53,9 @@ python scoring_file.py -p ./examples/6OIM_model.json -s ./examples/example.smi -
 - [PyTorch]((https://pytorch.org/)) >= 1.13
 - [OpenBabel](http://openbabel.org/wiki/Main_Page) >= 3.1.1
 - [Biopython](https://biopython.org) >= 1.81
-- [MolVoxel](https://github.com/SeonghwanSeo/molvoxel) (Comming soon in November)
+- [OmegaConf](https://omegaconf.readthedocs.io/en/2.3_branch/) >= 2.3.0
+- [Timm](https://timm.fast.ai) >= 0.9
+- [MolVoxel](https://github.com/SeonghwanSeo/molvoxel)
 
 #### Scoring
 
