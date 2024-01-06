@@ -51,7 +51,7 @@ python scoring_file.py -p ./examples/6OIM_model.json -s ./examples/example.smi -
 # Required python>=3.9, Best Performance at 3.11
 conda create --name pmnet python=3.11
 conda activate pmnet
-conda install openbabel
+conda install -c conda-forge openbabel==3.1.1 
 
 pip install torch torchvision # torch >= 1.13, CUDA acceleration is available. 1min for 1 cpu, 10s for 1 gpu
 pip install rdkit biopython omegaconf timm numba # Numba is optional, but recommended.
